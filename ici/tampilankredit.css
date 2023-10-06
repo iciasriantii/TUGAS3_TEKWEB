@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Gaya untuk form */
+#kreditForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+a {
+    background-color: #E284B3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+button {
+    background-color: #E284B3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Gaya untuk tabel hasil */
+#hasilTabel {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#hasilTabel th, #hasilTabel td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#hasilTabel th {
+    background-color:#66CCFF;
+}
+
+/* Gaya untuk tabel hasil saat hover */
+#hasilTabel tr:hover {
+    background-color: #f5f5f5;
+    
+
+}
